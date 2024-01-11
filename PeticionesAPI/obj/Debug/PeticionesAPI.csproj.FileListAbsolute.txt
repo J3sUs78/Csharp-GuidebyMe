@@ -1,0 +1,11 @@
+D:\Programacion\CSharp\PeticionesAPI\bin\Debug\PeticionesAPI.exe.config
+D:\Programacion\CSharp\PeticionesAPI\bin\Debug\PeticionesAPI.exe
+D:\Programacion\CSharp\PeticionesAPI\bin\Debug\PeticionesAPI.pdb
+D:\Programacion\CSharp\PeticionesAPI\bin\Debug\Newtonsoft.Json.dll
+D:\Programacion\CSharp\PeticionesAPI\bin\Debug\Newtonsoft.Json.xml
+D:\Programacion\CSharp\PeticionesAPI\obj\Debug\PeticionesAPI.csproj.AssemblyReference.cache
+D:\Programacion\CSharp\PeticionesAPI\obj\Debug\PeticionesAPI.csproj.SuggestedBindingRedirects.cache
+D:\Programacion\CSharp\PeticionesAPI\obj\Debug\PeticionesAPI.csproj.CoreCompileInputs.cache
+D:\Programacion\CSharp\PeticionesAPI\obj\Debug\PeticionesAPI.csproj.CopyComplete
+D:\Programacion\CSharp\PeticionesAPI\obj\Debug\PeticionesAPI.exe
+D:\Programacion\CSharp\PeticionesAPI\obj\Debug\PeticionesAPI.pdb
