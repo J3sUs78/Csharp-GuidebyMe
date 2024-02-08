@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="MantenedorPersonas.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Personas-Global</title>
+    <link href="Styles/bootstrap.css" rel="stylesheet" />
+    <link href="Styles/Main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+</head>
+<body class="min-vh-100">
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="logo">
+            </div>
+            <!-- Start Navigation Bar -->
+            <nav class="navbar">
+                <ul class="menu">
+
+                    <%--Inicio o ingresar data de conexion a bd--%>
+                    <li>
+                        <a href="Default.aspx">Inicio
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+
+                    </li>
+
+                    <%--Registrar  a una persona--%>
+                    <li id="liRegister" runat="server" visible="true">
+                        <a href="RegistrarPersona.aspx">Eres nuevo? 
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                    </li>
+
+                    <%--Ver una persona--%>
+                    <li id="liVerPersonas" runat="server" visible="false">
+                        <a href="VerPersonas.aspx">Ver Personas 
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                    </li>
+
+                    <%--Editar una perosna--%>
+                    <li id="liEditar" runat="server" visible="false">
+                        <a href="EditarPersona.aspx">Editar datos  <i class="fa fa-angle-down"></i></a>
+
+                    </li>
+
+
+                    <%--Eliminar--%>
+                    <li id="liEliminar" runat="server" visible="false">
+                        <a href="EliminarPersona.aspx">Eliminar  <i class="fa fa-angle-down"></i></a>
+
+                    </li>
+
+                    <%--Iniciar Sesion--%>
+                    <li id="liIniciarSesion" runat="server" visible="true">
+                        <a href="FInicioSesion.aspx">Iniciar Sesion <i class="fa fa-angle-down"></i></a>
+                    </li>
+
+
+
+                </ul>
+            </nav>
+            <!-- End Navigation Bar -->
+
+            <div class="container">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+        </div>
+    </form>
+
+    <footer class="footer py-4 bg-dark text-white mt-auto">
+        <div class="info">
+            <span>Contacto@global.cl</span>
+            <span>Wsp: +56988319412</span>
+            <span>www.globalsystems.cl</span>
+        </div>
+    </footer>
+</body>
+
+
+<script src="Scripts/bootstrap.min.js"></script>
+</html>
